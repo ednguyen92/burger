@@ -1,0 +1,18 @@
+body {
+    background-image: url("../img/food_background.jpg");
+    background-color: #98fbfd;
+    font-family: 'BioRhyme Expanded', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.order-size {
+    height: 160px;
+}
+
+.burger-size {
+    margin: 50px;
+    height: 95px;
+}
