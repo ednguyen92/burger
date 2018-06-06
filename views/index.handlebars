@@ -23,9 +23,13 @@
                 </div>
             </div>
         </div>
-
     
         <div class="col s5 offset-s1">
+            <div class="card light-blue lighten-1 z-depth-2 burger-size">
+                <div class="card-content white-text"> 
+                    <p>Ready to be Devoured!</p>
+                </div>
+            </div>
             <ul>
                 {{#each burgers}}
                     {{#unless devoured}}
@@ -50,6 +54,12 @@
         </div>
     
         <div class="col s5">
+            <div class="card light-blue lighten-1 z-depth-2 burger-size">
+                <div class="card-content white-text"> 
+                    <p>Already Devoured!</p>
+                </div>
+            </div>
+            
             <ul>
                 {{#each burgers}} 
                     {{#if devoured}}
